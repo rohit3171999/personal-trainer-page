@@ -5,6 +5,7 @@ import Testimonials from "./components/Testimonials.jsx";
 import BookingForm from "./components/BookingForm.jsx";
 import CTAStickyButton from "./components/CTAStickyButton.jsx";
 import MediaGallery from "./components/MediaGallery.jsx";
+import SocialLinks from "./components/SocialLinks.jsx";
 
 export default function App(){
     return (
@@ -16,6 +17,7 @@ export default function App(){
             <BookingForm/>
             <CTAStickyButton/>
             <MediaGallery/>
+            <SocialLinks/>
         </>
     );
 }
