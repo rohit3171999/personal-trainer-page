@@ -3,6 +3,7 @@ import AboutTrainer from "./components/AboutTrainer.jsx";
 import ServicesList from "./components/ServicesList.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import BookingForm from "./components/BookingForm.jsx";
+import CTAStickyButton from "./components/CTAStickyButton.jsx";
 
 export default function App(){
     return (
@@ -12,6 +13,7 @@ export default function App(){
             <ServicesList/>
             <Testimonials/>
             <BookingForm/>
+            <CTAStickyButton/>
         </>
     );
 }
